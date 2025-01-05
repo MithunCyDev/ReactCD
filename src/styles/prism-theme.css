@@ -1,0 +1,58 @@
+/* Custom PrismJS theme overrides */
+:root {
+  --purple-highlight: #A78BFA;
+  --purple-light: #C4B5FD;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6B7280;
+}
+
+.token.punctuation {
+  color: #E5E7EB;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol {
+  color: var(--purple-highlight);
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin {
+  color: var(--purple-light);
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #9CA3AF;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: var(--purple-highlight);
+}
+
+.token.function,
+.token.class-name {
+  color: var(--purple-light);
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #FDE68A;
+}
