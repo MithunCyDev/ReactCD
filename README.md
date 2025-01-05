@@ -34,7 +34,7 @@ A powerful, interactive component designer for React applications that allows yo
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/react-component-designer.git
+git clone https://github.com/MithunCyDev/ReactCD.git
 
 # Navigate to project directory
 cd react-component-designer
