@@ -1,7 +1,6 @@
 import { ComponentData } from '../types/designer';
 import { v4 as uuidv4 } from 'uuid';
 
-// Simple JSX parser (basic implementation)
 export function parseJSXCode(code: string): ComponentData[] {
   try {
     // Remove imports and exports
